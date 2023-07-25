@@ -1,0 +1,293 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Mulish", sans-serif;
+}
+/* Genral */
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+:root {
+  --paragraph-color: #7d7987;
+  --main-color: #000;
+}
+.btn-learn-more {
+  cursor: pointer;
+  padding: 10px 30px;
+  background-color: #fff;
+  color: #458ff6;
+  border: 1.4px solid #458ff6;
+  border-radius: 55px;
+}
+.margin-section {
+  margin-bottom: 90px;
+}
+/* / Genarl  */
+
+/* ---------------------------------------------------------- */
+
+/* nav bar  */
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.nav-bar div a {
+  width: 0 auto;
+  margin-left: 15px;
+  text-decoration: none;
+  color: #1f1534;
+  font-weight: 600;
+}
+.nav-bar-home {
+  font-weight: bold;
+}
+.nav-bar-info {
+  opacity: 0.8;
+}
+/* /nav bar  */
+
+/* ---------------------------------------------------------- */
+
+/*  Hero Section */
+.hero-section {
+  display: flex;
+  justify-content: space-around;
+}
+.hero-div-1 {
+  margin-top: 50px;
+  width: 100%;
+}
+
+.hero-section div h1 {
+  color: var(--main-color);
+  margin-bottom: 15%;
+  font-weight: 700;
+  font-size: 45px;
+}
+.hero-section div p {
+  color: var(--paragraph-color);
+  font-size: 21px;
+  font-weight: 300;
+  margin-bottom: 15%;
+}
+
+.hero-section button {
+  border-radius: 55px;
+  background: #458ff6;
+  color: white;
+  padding: 20px 50px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+}
+/*  /Hero Section */
+
+/* ---------------------------------------------------------- */
+
+/* Our services */
+
+.our-services-section div h1 {
+  text-align: center;
+  font-weight: bold;
+  margin: 30px auto;
+  font-size: 35px;
+}
+
+.our-services-section div p {
+  text-align: center;
+  font-size: 14px;
+  opacity: 0.8;
+  margin: 30px auto;
+}
+
+.our-service-info {
+  margin: 50px auto;
+}
+
+.services-list {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+}
+.item {
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.4);
+  width: 30%;
+  padding: 30px;
+  margin: 0 auto 30px auto;
+}
+.item-img {
+  width: 20%;
+  margin-bottom: 20px;
+}
+.item h3 {
+  font-weight: bold;
+  font-size: 14px;
+  margin: 0 auto 20px auto;
+}
+
+.item p {
+  color: #7d7987;
+  font-size: 10px;
+}
+
+.our-service-btn {
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* /Our services */
+
+/* ---------------------------------------------------------- */
+
+/* Leading Section  */
+
+/* Flex Big div */
+.leading-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* / Flex Big div  */
+
+/* div on the right  */
+.leading-img {
+  width: 80%;
+}
+.leading-right {
+  width: 50%;
+}
+/* / div on the right  */
+
+/* div on the left  */
+.leading-right h1 {
+  color: var(--main-color);
+  font-weight: 700;
+  margin-bottom: 30px;
+  font-size: 35px;
+}
+.leading-right p {
+  color: var(--paragraph-color);
+  opacity: 0.8;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+/* / div on the left  */
+
+/* /Leading Section  */
+
+/* ---------------------------------------------------------- */
+
+/* Download Section */
+
+.download-section {
+  display: flex;
+  justify-content: space-between;
+}
+.download-section h1 {
+  color: var(--main-color);
+  font-weight: 900;
+  margin-bottom: 30px;
+  font-size: 35px;
+}
+.download-section p {
+  color: var(--paragraph-color);
+  opacity: 0.8;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+.download-btn {
+  border-radius: 55px;
+  border: 1.4px solid #458ff6;
+  background-color: #fff;
+  color: #458ff6;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 20px 60px;
+  cursor: pointer;
+}
+.arrow-down {
+  margin-left: 15px;
+}
+.download-left-div {
+  margin-top: 40px;
+  width: 60%;
+}
+/* /Download Section  */
+
+/* ---------------------------------------------------------- */
+
+/* Customer Saying Section */
+.saying-big-div1 {
+  border-radius: 24px;
+  width: 100%;
+  height: 70vh;
+  background: linear-gradient(223deg, #67c3f3 0%, #5a98f2 100%);
+}
+
+.saying-divForh1 {
+  text-align: center;
+  padding: 15vh;
+}
+.saying-divForh1 h1 {
+  color: #fff;
+  font-size: 36px;
+}
+.saying-big-div2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.person-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 150px;
+  border: 7px solid #fff;
+}
+.saying-div-name {
+  color: #fff;
+  width: 20%;
+}
+.saying-div-name h2 {
+  text-align: center;
+}
+
+.saying-div-name p {
+  text-align: center;
+  font-size: 18px;
+  opacity: 0.8;
+}
+.saying-div-last-p {
+  width: 40%;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 30px;
+}
+/* / Customer Saying Section */
+
+/* ---------------------------------------------------------- */
+
+/* Slider Section */
+.slider-div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+  margin: 40px auto 0 auto;
+}
+.slider-div button {
+  border: none;
+  background-color: #fff;
+  cursor: pointer;
+}
+/* / Slider Section  */
+
+/* ---------------------------------------------------------- */
