@@ -12,19 +12,20 @@
 :root {
   --paragraph-color: #7d7987;
   --main-color: #000;
+  --back-ground-color: #458ff6;
 }
 .btn-learn-more {
   cursor: pointer;
   padding: 10px 30px;
   background-color: #fff;
-  color: #458ff6;
-  border: 1.4px solid #458ff6;
+  color: var(--back-ground-color);
+  border: 1.4px solid var(--back-ground-color);
   border-radius: 55px;
 }
 .margin-section {
   margin-bottom: 90px;
 }
-/* / Genarl  */
+/* END Genarl  */
 
 /* ---------------------------------------------------------- */
 
@@ -49,7 +50,7 @@
 .nav-bar-info {
   opacity: 0.8;
 }
-/* /nav bar  */
+/* END nav bar  */
 
 /* ---------------------------------------------------------- */
 
@@ -78,14 +79,14 @@
 
 .hero-section button {
   border-radius: 55px;
-  background: #458ff6;
+  background: var(--back-ground-color);
   color: white;
   padding: 20px 50px;
   font-size: 18px;
   border: none;
   cursor: pointer;
 }
-/*  /Hero Section */
+/*  END Hero Section */
 
 /* ---------------------------------------------------------- */
 
@@ -133,7 +134,7 @@
 }
 
 .item p {
-  color: #7d7987;
+  color: var(--paragraph-color);
   font-size: 10px;
 }
 
@@ -142,30 +143,25 @@
   margin: 0 auto;
 }
 
-/* /Our services */
+/* END Our services */
 
 /* ---------------------------------------------------------- */
 
 /* Leading Section  */
 
-/* Flex Big div */
 .leading-div {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-/* / Flex Big div  */
 
-/* div on the right  */
 .leading-img {
   width: 80%;
 }
 .leading-right {
   width: 50%;
 }
-/* / div on the right  */
 
-/* div on the left  */
 .leading-right h1 {
   color: var(--main-color);
   font-weight: 700;
@@ -178,9 +174,8 @@
   font-size: 14px;
   margin-bottom: 30px;
 }
-/* / div on the left  */
 
-/* /Leading Section  */
+/* END Leading Section  */
 
 /* ---------------------------------------------------------- */
 
@@ -204,9 +199,9 @@
 }
 .download-btn {
   border-radius: 55px;
-  border: 1.4px solid #458ff6;
+  border: 1.4px solid var(--back-ground-color);
   background-color: #fff;
-  color: #458ff6;
+  color: var(--back-ground-color);
   font-weight: bold;
   font-size: 18px;
   padding: 20px 60px;
@@ -219,7 +214,7 @@
   margin-top: 40px;
   width: 60%;
 }
-/* /Download Section  */
+/* END Download Section  */
 
 /* ---------------------------------------------------------- */
 
@@ -271,7 +266,6 @@
   font-weight: 400;
   line-height: 30px;
 }
-/* / Customer Saying Section */
 
 /* ---------------------------------------------------------- */
 
@@ -288,6 +282,105 @@
   background-color: #fff;
   cursor: pointer;
 }
-/* / Slider Section  */
+/* END Slider Section  */
+
+/* END Customer Saying Section */
+
+/* ---------------------------------------------------------- */
+
+/* Check out Section */
+
+.check-out-h1 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 56px;
+  margin-bottom: 60px;
+}
+.check-out-big-div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.check-out-img {
+  border-radius: 25px 25px 0 0;
+  margin-bottom: 30px;
+  width: 90%;
+}
+.check-out-big-div h2 {
+  font-size: 21px;
+  font-weight: bolder;
+  line-height: 32px;
+  text-align: center;
+  width: 70%;
+  margin-bottom: 30px;
+}
+.check-out-big-div p {
+  color: var(--paragraph-color);
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28px;
+  margin-bottom: 30px;
+  width: 70%;
+}
+.check-out-big-div button {
+  border: none;
+  background-color: #fff;
+  color: var(--back-ground-color);
+  font-size: 17px;
+  line-height: 28px;
+}
+.btn-view-all {
+  text-align: center;
+  margin: 0 auto 30px auto;
+}
+.btn-view-all button {
+  padding: 15px 60px;
+  border-radius: 55px;
+  border: 1.4px solid var(--back-ground-color);
+  background-color: #fff;
+  color: var(--back-ground-color);
+  font-size: 18px;
+  font-weight: 700;
+}
+/*  END Check out section  */
+
+/* ---------------------------------------------------------- */
+
+/* Footer Section */
+.footer-big-div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: linear-gradient(212deg, #67c3f3 0%, #5a98f2 100%);
+  height: 60vh;
+  padding: 80px;
+}
+.footer-div {
+  width: 25%;
+  text-align: center;
+}
+.footer-img {
+  width: 25%;
+  text-align: center;
+}
+.footer-big-div h1 {
+  color: #fff;
+  font-size: 20px;
+  line-height: 60px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.footer-big-div a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 38px;
+}
+/* END Footer Section */
 
 /* ---------------------------------------------------------- */
